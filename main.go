@@ -6,11 +6,12 @@ import (
 
 	// tca9548a "viam-TCA9548A/tca9548a"
 
-	"github.com/nfranczak/viam-TCA9548A/tca9548a"
+	// "github.com/nfranczak/viam-tca9548a/tca9548a"
 	"go.viam.com/rdk/components/sensor"
 	"go.viam.com/rdk/logging"
 	"go.viam.com/rdk/module"
 	"go.viam.com/utils"
+	"main.go/tca9548a"
 )
 
 func main() {
